@@ -1,0 +1,21 @@
+@use '../abstracts' as *;
+
+.team{
+  display: grid;
+  place-content: center;
+
+   &__title{
+      text-align: center;
+      margin-top: rem(48);
+      margin-bottom: 1rem;
+   }
+
+   &__description_{
+      text-align: start;
+   }
+
+   &__img{
+      vertical-align: middle;
+      margin-left: rem(5);
+   }
+}

@@ -1,0 +1,15 @@
+@use '../abstracts' as *;
+
+.article{
+   text-align: center;
+
+   &__img{
+      width: 60px;
+   }
+
+   &__title{
+      margin-top: 2rem;
+   }
+
+   
+}

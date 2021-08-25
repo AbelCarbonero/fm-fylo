@@ -1,0 +1,16 @@
+@use '../abstracts' as *;
+
+.header{
+   width: 100%;
+   background-color: var(--color-darkblue-200);
+}
+
+.logo{
+   width: rem(72);
+}
+
+.top-bar{
+   display: flex;
+   align-items: center;
+   padding: 1rem 0 1rem rem(20);
+}

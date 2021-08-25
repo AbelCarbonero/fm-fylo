@@ -1,0 +1,9 @@
+@use '../abstracts' as *;
+
+.features{
+   display: grid;
+   gap: rem(85);
+   position: relative;
+
+  
+}

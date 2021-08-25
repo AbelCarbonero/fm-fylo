@@ -1,0 +1,38 @@
+@use '../abstracts' as *;
+
+
+.form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+
+&__input{
+   width: 100%;
+   border: none;
+   border-radius: 50px;
+   padding: .85rem 1rem;
+   margin-top: rem(35);
+   margin-bottom: 2rem;
+
+   &::placeholder{
+     
+      opacity: .3;
+      
+   }
+
+   &:focus{
+     
+       outline: none !important;
+       border-color: var(--color-cyan);
+       box-shadow: 0 0 5px var(--color-cyan);
+   
+   }
+}
+
+&__btn{
+   cursor: pointer;
+}
+
+}

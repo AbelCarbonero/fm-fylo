@@ -1,0 +1,16 @@
+@use '../abstracts' as *;
+
+h1, h2, h3{
+   font-family: var(--font-heading);
+}
+
+.heading{
+   font-size: rem(17);
+   font-weight: 700;
+   
+}
+
+.subheading{
+   font-size: rem(14);
+   line-height: 1.7;
+}

@@ -1,0 +1,51 @@
+@use '../abstracts' as *;
+
+.hero{
+      position: relative;
+      text-align: center;
+      background-image: url("../assets/images/bg-curvy-mobile.svg");
+      background-size: 100% 130px;
+      background-position: 58% 46%;
+      background-repeat: no-repeat;
+      margin-top: 2.5rem;
+      margin-bottom: rem(80);
+      z-index: 1;
+      
+
+      &:after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 42%;
+            bottom: 0;
+            left: 0;
+            background-color: var(--color-darkblue-300);
+            z-index: -10;
+         }
+
+      &__img{
+         padding: 0 2rem;
+      }
+
+
+
+      &__content{
+         padding: 0 rem(30);
+      }
+
+      &__title{
+         font-size: clamp(1.3rem, 5vw, 2.2rem);
+         letter-spacing: 1px;
+         line-height: 1.6;
+         margin-top: 2rem;
+      }   
+
+         
+      &__subtitle{
+         
+         font-size: rem(14);
+         line-height: 1.7;
+         margin-bottom: 2rem;
+      }
+   
+}

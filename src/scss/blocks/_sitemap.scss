@@ -1,0 +1,26 @@
+@use '../abstracts' as *;
+
+.sitemap{
+   font-size: 1rem;
+
+   &:nth-of-type(1){
+      margin-bottom: 4rem;
+   }
+   
+
+   &__item:not(:last-child){
+      margin-bottom: 1.5rem;
+   }
+
+   &__link{
+      display: block;
+      color: var(--color-white);
+      opacity: .7;
+      transition: opacity .3s;
+
+      &:hover{
+         opacity: 1;
+      }
+   }
+  
+}

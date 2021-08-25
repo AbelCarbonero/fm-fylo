@@ -1,0 +1,134 @@
+doctype html
+html(lang="es")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		
+		link(rel='preconnect' href='https://fonts.googleapis.com')
+		link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+		link(href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap' rel='stylesheet')
+		
+		link(rel="stylesheet", href="css/styles.css")
+		title Fylo | Secure location for your files
+	body
+		header.header
+			.top-bar
+				img(src="assets/images/logo.svg" alt="fylo logo").logo
+				nav.main-nav
+					ul.main-menu
+						li.main-menu__item: a(href="#features").main-menu__link Features
+						li.main-menu__item: a(href="#team").main-menu__link Team
+						li.main-menu__item: a(href="#sign").main-menu__link Sign in
+			section.hero 
+				img(src="assets/images/illustration-intro.png" alt="intro illustration").hero__img
+				
+				.hero__content
+					h1.hero__title.heading All your files in one secure location, accessible anywhere.
+					p.hero__subtitle Fylo stores all your most important files in one secure 		location. Access them wherever you need, share and collaborate with friends family, and co-workers.
+					a(href="#").btn.btn--blue Get Started 
+		main.main
+			section.section.features#features 
+				article.article 
+					img(src="assets/images/icon-access-anywhere.svg", alt="devices").article__img
+					h2.article__title.heading Access your files, anywhere
+					p.article__description.subheading  The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.
+
+				article.article 
+					img(src="assets/images/icon-security.svg", alt="devices").article__img
+					h2.article__title.heading Security you can trust
+					p.article__description.subheading  2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.
+
+				article.article 
+					img(src="assets/images/icon-collaboration.svg", alt="devices").article__img
+					h2.article__title.heading  Real-time collaboration
+					p.article__description.subheading  Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
+
+				article.article 
+					img(src="assets/images/icon-any-file.svg", alt="devices").article__img
+					h2.article__title.heading Store any type of file
+					p.article__description.subheading  Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.
+
+			section.section.team#team 
+				img(src="assets/images/illustration-stay-productive.png", alt="team illustration")
+				.team__content
+					h2.team__title.heading Stay productive, wherever you are
+					p.team__description.subheading Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.
+					p.team__description.subheading  Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
+					a(href='#').team__link.link
+						span See how Fylo works 
+						img(src="assets/images/icon-arrow.svg", alt="").team__img
+
+			section.section.testimonial 
+				.cards 
+					.card.card--icon
+						p.card__description Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+						.card__profile 
+							img(src="assets/images/profile-1.jpg", alt="").card__img
+							.card__data 
+								h3.card__name Satish Patel
+								p.card__position Founder & CEO, Huddle
+					.card 
+						p.card__description Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+						.card__profile 
+							img(src="assets/images/profile-2.jpg", alt="").card__img
+							.card__data 
+								h3.card__name Bruce McKenzie
+								p.card__position Founder & CEO, Huddle
+					.card 
+						p.card__description Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+						.card__profile 
+							img(src="assets/images/profile-3.jpg", alt="").card__img
+							.card__data 
+								h3.card__name Iva Boyd
+								p.card__position Founder & CEO, Huddle
+
+			aside.aside#sign 
+				.aside__content 
+					h3.aside__title.heading Get early access today
+					p.aside__description.subheading It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
+					form(action="").form 
+						input(type='email' name='name' placeholder='example@email.com').form__input
+						input(type="submit", value="Get Started For Free").btn.btn--blue.form__btn
+			
+			footer.footer
+				img(src="assets/images/logo.svg" alt="fylo logo").footer__logo
+				.footer__wrapper
+					.footer__location 
+						img(src="assets/images/icon-location.svg", alt="location icon").footer__icon
+						span Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+					
+					.footer__contact
+						.footer__phone
+							img(src="assets/images/icon-phone.svg", alt="phone icon").footer__icon
+							span +1-543-123-4567
+						
+						.footer__email
+							img(src="assets/images/icon-email.svg", alt="email icon").footer__icon
+							span example@fylo.com
+
+					ul.sitemap
+						li.sitemap__item: a(href="#").sitemap__link About Us
+						li.sitemap__item: a(href="#").sitemap__link Jobs
+						li.sitemap__item: a(href="#").sitemap__link Press
+						li.sitemap__item: a(href="#").sitemap__link Blog
+					
+					ul.sitemap
+						li.sitemap__item: a(href="#").sitemap__link Contact Us
+						li.sitemap__item: a(href="#").sitemap__link Terms
+						li.sitemap__item: a(href="#").sitemap__link Privacy
+
+					.social 
+						img(src="assets/images/facebook-icon.svg", alt="")
+						img(src="assets/images/twitter-icon.svg", alt="")
+						img(src="assets/images/instagram-icon.svg", alt="")
+					
+
+				
+
+				
+
+				
+
+
+  				
