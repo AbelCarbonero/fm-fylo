@@ -1,3 +1,3 @@
 # fm-fylo
 Frontend Mentor challenge
-Mobile only
+Mobile version
